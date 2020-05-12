@@ -1,0 +1,29 @@
+
+
+/* DOM */
+
+/* MAIN */
+/* Section Breaks */
+.breaker{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0 10%;
+	width: 100%;
+	box-sizing: border-box;
+}
+.breaker-decoration {
+	width: 75%;
+	height: 7px;
+	background-color: #7b7b7b;
+}
+.breaker-img{
+	margin: 0 10px;
+}
+
+
+/* FONTS */
+
+
+/* COLORS */
