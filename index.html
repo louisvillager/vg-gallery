@@ -10,6 +10,24 @@
 
   <body>
     <!-- HEADER and NAVBAR -->
+    <header>
+      <h1>Video Game Gallery</h1>
+
+      <label for="game-select">Choose a game:</label>
+      <select name="games" id="game-select">
+        <option value="">--Please choose a game--</option>
+        <option value="FF1">Final Fantasy I</option>
+        <option value="FF4">Final Fantasy IV</option>
+        <option value="FF5">Final Fantasy V</option>
+        <option value="FF6">Final Fantasy VI</option>
+        <option value="FF7">Final Fantasy VII</option>
+        <option value="FF8">Final Fantasy VIII</option>
+        <option value="FF9">Final Fantasy IX</option>
+        <option value="FF10">Final Fantasy X</option>
+        <option value="FF12">Final Fantasy XII</option>
+        <option value="FF13">Final Fantasy XIII</option>
+      </select>
+    </header>
     <!-- fixed in place at top of viewport at all times -->
 
     <!-- MAIN -->
@@ -17,11 +35,26 @@
       <!-- Each entry gets its own div with game title, release info, descriptive
     paragraph, and images -->
       <!-- Divider between each game -->
+      <div class="breaker" aria-label="Next game">
+        <div class="breaker-decoration"></div>
+        <img
+          src="img/bw-chocobo.png"
+          class="breaker-img"
+          alt="Chocobo section break"
+          title="Kweh!"
+        />
+        <div class="breaker-decoration"></div>
+      </div>
     </main>
 
     <!-- FOOTER -->
     <footer>
+      <p>&copy; 2020 Marc Rivers</p>
       <!-- Include copyright disclaimer for Square-Enix -->
+      <p>
+        All images are &copy; Square-Enix. The creator of this website makes no
+        claims to ownership.
+      </p>
     </footer>
 
     <script src="scripts/main-script.js"></script>
