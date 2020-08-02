@@ -1,29 +1,57 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Girassol&family=Uncial+Antiqua&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Lato&display=swap');
 
 /* DOM */
 
 /* MAIN */
 /* Section Breaks */
-.breaker{
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	padding: 0 10%;
-	width: 100%;
-	box-sizing: border-box;
+.breaker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 10%;
+  width: 100%;
+  box-sizing: border-box;
 }
 .breaker-decoration {
-	width: 75%;
-	height: 7px;
-	background-color: #7b7b7b;
+  width: 75%;
+  height: 7px;
+  background-color: #7b7b7b;
 }
-.breaker-img{
-	margin: 0 10px;
+.breaker-img {
+  margin: 0 10px;
 }
-
 
 /* FONTS */
+h1,
+h2,
+h3 {
+  font-family: Girassol, "Uncial Antiqua", serif;
+  /* font-size: 1.2em; */
+}
 
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+p, select, label {
+  font-family: Alegreya, Lato, "sans serif";
+  font-size: 1.2em;
+}
+
+p {
+	margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+.released {
+	font-style: italic;
+	margin-left: 1em;
+}
 
 /* COLORS */
