@@ -1,9 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Girassol&family=Uncial+Antiqua&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Lato&display=swap");
 
 /* DOM */
+body {
+  background-image: url(../img/oriental-dark.png); /* Background pattern from Toptal Subtle Patterns */
+  margin: 0 8px;
+}
 
 /* MAIN */
+h1 {
+  margin-top: 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #d6d5d1;
+}
+
+#main-content {
+  margin: 0 1em;
+}
+
+.screenshots {
+  text-align: center;
+}
+
 /* Section Breaks */
 .breaker {
   display: inline-flex;
@@ -23,6 +45,10 @@
   margin: 0 10px;
 }
 
+footer p {
+  margin-bottom: 0;
+}
+
 /* FONTS */
 h1,
 h2,
@@ -32,26 +58,28 @@ h3 {
 }
 
 h1 {
-	font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 h2 {
-	font-size: 1.75em;
+  font-size: 1.75em;
 }
 
-p, select, label {
+p,
+select,
+label {
   font-family: Alegreya, Lato, "sans serif";
   font-size: 1.2em;
 }
 
 p {
-	margin-block-start: .5em;
-    margin-block-end: .5em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
 }
 
 .released {
-	font-style: italic;
-	margin-left: 1em;
+  font-style: italic;
+  margin-left: 1em;
 }
 
 /* COLORS */
