@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Girassol&family=Uncial+Antiqua&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Lato&display=swap");
-/* DOM */
+/* ------
+  DOM
+------ */
 body {
   background-image: url(../img/oriental-dark.png);
   /* Background pattern from Toptal Subtle Patterns */
@@ -21,7 +23,9 @@ header {
   padding-bottom: 1em;
 }
 
-/* MAIN */
+/* ------
+  MAIN
+------ */
 h1 {
   margin-top: 0;
 }
@@ -87,7 +91,9 @@ footer p {
   margin-bottom: 0;
 }
 
-/* FONTS */
+/* ------
+  FONTS
+------ */
 h1,
 h2,
 h3 {
@@ -125,7 +131,9 @@ p {
   margin-left: 1em;
 }
 
-/* MEDIA QUERIES */
+/* ------
+  MEDIA QUERIES
+------ */
 @media screen and (min-width: 800px) {
   #header-content {
     display: -webkit-box;
