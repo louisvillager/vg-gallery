@@ -1,15 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Girassol&family=Uncial+Antiqua&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Lato&display=swap");
+
 /* DOM */
 body {
-  background-image: url(../img/oriental-dark.png);
-  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url(../img/oriental-dark.png); /* Background pattern from Toptal Subtle Patterns */
   margin: 0;
 }
 
 header {
-  background-color: #36454f;
-  /* charcoal gray */
+  background-color: #36454f; /* charcoal gray */
   color: #efefef;
   /* position: fixed;
   top: 0;
@@ -47,35 +46,25 @@ main {
 
 /* Section Breaks */
 .breaker {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 0 10%;
   width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 .breaker-decoration {
   width: 75%;
   height: 7px;
   background-color: #7b7b7b;
 }
-
 .breaker-img {
   margin: 0 10px;
 }
 
-footer {
-  background-color: #36454f;
-  /* charcoal gray */
+footer {  
+  background-color: #36454f; /* charcoal gray */
   color: #efefef;
 }
 
@@ -114,10 +103,8 @@ label {
 }
 
 p {
-  -webkit-margin-before: 0.5em;
-          margin-block-start: 0.5em;
-  -webkit-margin-after: 0.5em;
-          margin-block-end: 0.5em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
 }
 
 .released {
@@ -125,19 +112,17 @@ p {
   margin-left: 1em;
 }
 
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 800px) {
+
   #header-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    align-items: baseline;
     padding-bottom: 0;
   }
+
   label {
     padding: 0 1em 0 2em;
   }
 }
-/*# sourceMappingURL=main-style.css.map */
