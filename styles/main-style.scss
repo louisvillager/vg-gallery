@@ -15,6 +15,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  max-width: 1200px;
   z-index: 1;
 }
 
@@ -39,6 +40,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   background-color: #d6d5d1;
+  padding-top: 146px;
 }
 
 #main-content {
@@ -129,6 +131,10 @@ p {
     display: flex;
     align-items: baseline;
     padding-bottom: 0;
+  }
+
+  main {
+    padding-top: 83px;
   }
 
   label {
