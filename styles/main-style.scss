@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  margin-top: .25em;
+  margin-top: 0.25em;
   margin-bottom: 0;
 }
 
@@ -70,7 +70,7 @@ main {
   margin: 0 10px;
 }
 
-footer {  
+footer {
   background-color: #36454f; /* charcoal gray */
   color: #efefef;
 }
@@ -79,7 +79,24 @@ footer {
   margin-left: 10px;
 }
 
-footer p {
+#top-row {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  display: inline-block;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 1em;
+}
+
+.disclaimer {
+  display: block;
+  margin-top: 0.25em;
   margin-bottom: 0;
 }
 
@@ -121,12 +138,10 @@ p {
   margin-left: 1em;
 }
 
-
 /* ------
   MEDIA QUERIES
 ------ */
 @media screen and (min-width: 800px) {
-
   #header-content {
     display: flex;
     align-items: baseline;

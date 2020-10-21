@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  margin-top: .25em;
+  margin-top: 0.25em;
   margin-bottom: 0;
 }
 
@@ -90,7 +90,28 @@ footer {
   margin-left: 10px;
 }
 
-footer p {
+#top-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.copyright {
+  display: inline-block;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 1em;
+}
+
+.disclaimer {
+  display: block;
+  margin-top: 0.25em;
   margin-bottom: 0;
 }
 
